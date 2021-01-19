@@ -34,6 +34,5 @@ sudo pip3 uninstall tensorflow
 sudo -H pip3 install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
 
 # comprobamos que este todo guay
->>> import tensorflow as tf
->>> print(tf.__version__)
-2.2.0
+import tensorflow as tf
+print(tf.__version__)
